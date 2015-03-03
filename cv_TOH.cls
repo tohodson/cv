@@ -75,3 +75,9 @@
     #1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
     {\Large} #4 \ {\Large} #5
 }
+
+\newcommand{\shortcontact}[2]{
+    \begin{center}
+    \href{mailto:#1}{#1} {\large\textperiodcentered} #2
+    \end{center}
+}
