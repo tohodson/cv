@@ -30,7 +30,9 @@
 \RequirePackage{xcolor}
 \RequirePackage{fancyhdr} %fancy headers
 %\RequirePackage{fontspec}
+\definecolor{lightgray}{gray}{0.8}
 
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
 %\newfontfamily\headingfont[]{Armata}
 
 % https://www.sharelatex.com/blog/2011/03/27/how-to-write-a-latex-class-file-and-design-your-own-cv.html
@@ -46,12 +48,12 @@
   [\color{lightgray}\titlerule]                 % Inserts a horizontal line after the heading
 
 \titleformat{\subsection}
-  {\sffamily\raggedright}
+  {\raggedright}
   {}{0em}
   {}
 
 \titleformat{\subsubsection}
-  {\sffamily\slshape\raggedright}
+  {\itshape\raggedright}
   {}{0em}
   {}
 % This defines two new commands \datedsection and \datedsubsection which take two

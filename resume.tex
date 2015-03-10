@@ -2,6 +2,9 @@
 
 \usepackage[letterpaper,top=1cm,bottom=1cm,left=2cm,right=2cm]{geometry}
 \usepackage{hyperref}
+\usepackage{tikz}
+
+\newcommand{\Pointer}{\includegraphics[scale=0.5]{pointer.png}}%
 
 \pagenumbering{gobble}
 
@@ -9,60 +12,70 @@
 
 \name{Timothy O. Hodson}
 \shortcontact{tohodson@gmail.com}{(217)-493-5551}
- 
+\centerline{\Pointer This document contains hyperlinks}
+
 \section{Education}
-\datedsubsection{Ph.D. Student in Geology -- Northern Illinois University}{In progress}
+\datedsubsection{\textbf{Ph.D. student in Geology} \textit{-- Northern Illinois University}}{In progress}
 \datedsubsection{Certificate of Graduate Study in Geographic Information Analysis}{2014}
-\datedsubsection{M.S Geology -- Northern Illinois University}{2012}
-\datedsubsection{B.S. Geology and Geophysics -- University of Wisconsin, Madison}{2007}
+\datedsubsection{\textbf{M.S. Geology} \textit{-- Northern Illinois University}}{2012}
+\datedsubsection{\textbf{B.S. Geology and Geophysics} \textit{-- University of Wisconsin, Madison}}{2007}
 
 \section{Research Interests}
 \begin{itemize}
-\item Ice sheet stability
+\item Reconstrucion of glacier and ice sheet dynamics from the sedimentary record.
 \item Application of remote sensing and geophysical data to surficial and seafloor mapping. 
-\item Realtime data viz from distributed sensor networks
 \end{itemize}
+
 \section{Professional Experience}
 
-\datedsubsection{Research Assistant, Northern Illinois University}{2010--Present}
+\datedsubsection{Research Assistant, \textit{Northern Illinois University}}{2010--Present}
 
 \begin{itemize}
-\item Participant in \href{http://www.wissard.org}{WISSARD}, a NSF funded project to explore aquatic and marine environments beneath Whillans Ice Stream and Ross Ice Shelf, Antarctica. Responsibilities include operations and maintenance of oceanographic instruments, data acquisition and post-processing software development, and planning operations and logistics.
-\item Mapped seafloor habitats in Puget Sound, Washington by mining historical bathymetric surveys and seafloor observations. Resulting mapset are in review with USGS and are being used by the Nature Conservancy to inform the region's public and policy makers.
+\item \href{http://www.wissard.org}{Participant in WISSARD, a NSF funded project to explore environments beneath the Antarctic Ice Sheet. Responsibilities include operations and maintenance of oceanographic instruments, data acquisition and post-processing software development, and planning operations and logistics.}
+\item Mapped seafloor habitats of Puget Sound, Washington by fusing historical and modern datasets. Resulting maps will inform the region's public and policy makers to foster better conservation and management of Puget Sound.
 \item \href{http://pubs.usgs.gov/sim/3253/}{Mapped seafloor habitats in Glacier Bay National Park using remotely sensed data and seafloor video observations in a maximum likelihood classifier. Resulting report and mapset published by USGS.}
 \end{itemize}
 
-\subsubsection{Teaching Assistant, Northern Illinois University}
-Teaching assistant for courses in introductory geology, sedimentology, vertebrate paleontology and planetary and space science.
+\datedsubsection{Teaching Assistant, \textit{Northern Illinois University}}{2010--2011}
+\begin{itemize}
+\item Teaching assistant for courses in sedimentology, paleontology, and planetary science.
+\end{itemize}
 
-\datedsubsection{Research Assistant, Illinois State Geological Survey}{2008--2009}
-
-Supported geolgists in surfcial mapping, aquifer characterization, and watershed characterization.
+\datedsubsection{Research Assistant, \textit{Illinois State Geological Survey}}{2008--2009}
+\begin{itemize}
+\item \href{http://www.isgs.illinois.edu/sites/isgs/files/maps/isgs-quads/aurora-south-sg.pdf}{created geologic maps from LIDAR, drill cores and satellite imagery.}
+\item fieldwork around Illinois including geophysical surveying, stratigraphic drilling, well installation, and wetlands characterization 
+\end{itemize}
 
 \section{Other Experience}
 \subsection{Mapping Intern -- NOAA}
-\subsection{STEMfest Volunteer}
+\href{http://www.niutoday.info/2014/04/17/niu-student-lands-coveted-internship-aboard-exploration-ship/}{Particpant in mapping cruise aboard NOAA's E/V Okeanos Explorer. Duties included QA and processing of data collected by the ship's swath and subbottom sonars.}
+\subsection{STEMfest Outreach Volunteer}
+Communicated importance of polar reasearch and organized educational activities for k-12 students.
 
 \section{Programming}
 \begin{itemize}
 \item Python, C, Matlab, R, BASH, JavaScript, SQL, HTML/CSS
-\item Relevant coursework in geospatial methods and modeling, web mapping, and network applications in C
+\item Relevant coursework in geospatial methods and modeling, web mapping, and network applications in C.
 \item Familiarity with common libraries for numerical programming, image analysis, geospatial analysis, statistics and machine learning
 \end{itemize}
 
 \section{Software}
 ArcGIS (4yrs), Adobe Illustrator, QGIS, GRASS, Fledermaus, Microsoft Office, Unix utilities, Emacs, and Vim
 
+\section{Professional organizaitons}
+American Geophysical Union, Sigma Xi (Associate Member), Geological Society of America
+
 \section{References}
 \begin{tabular}{@{}p{6cm}p{6cm}p{6cm}}
-\textbf{Ross Powell}                  &  \textbf{Thomas Pingel}            & \textbf{John Winans}   \\
-Professor                             &  Asst. Professor                   &  Research Associate    \\
-Geology and Env. Geoscience           &  Geography                         &  Computer Science      \\
-Northern Illinois University          &  Northern Illinois University      &  Northern Illinois University \\
-DeKalb, Illinois                      &  DeKalb, Illinois                  &  DeKalb, Illinois  \\
-phone: 815.753.7952                   &  phone: 815.753.9208               &  phone: 815.753.5947  \\
-e-mail: rpowell@niu.edu               &  e-mail: tpingel@niu.edu           &  e-mail: jwinans@niu.edu   \\
-                                      &  \url{www.tpingel.com}             &  \url{faculty.cs.niu.edu/~winans} \\
+ \textbf{Thomas Pingel}            & \textbf{John Winans}              &   \textbf{Ross Powell}           \\
+ Asst. Professor                   &  Research Associate               &   Professor (Advisor)            \\ 
+ Geography                         &  Computer Science                 &   Geology and Env. Geoscience    \\
+ Northern Illinois University      &  Northern Illinois University     &   Northern Illinois University   \\ 
+ DeKalb, Illinois                  &  DeKalb, Illinois                 &   DeKalb, Illinois               \\
+ phone: 815.753.9208               &  phone: 815.753.5947              &   phone: 815.753.7952            \\
+ e-mail: tpingel@niu.edu           &  e-mail: jwinans@niu.edu          &   e-mail: rpowell@niu.edu        \\
+ \url{www.tpingel.com}             &  \url{faculty.cs.niu.edu/~winans} &                                  \\     
 \end{tabular}
 
 \end{document} 

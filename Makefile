@@ -4,7 +4,7 @@ PRE =  $(TEX) -ini -job-name="preamble" "&pdflatex preamble.tex\dump"
 all : cv resume
 
 clean : 
-	    rm *.pdf *.aux *.log
+	    rm *.pdf *.aux *.log *.out
 view :
 	    open cv.pdf
 
