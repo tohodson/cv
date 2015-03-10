@@ -30,7 +30,7 @@
 \RequirePackage{xcolor}
 \RequirePackage{fancyhdr} %fancy headers
 %\RequirePackage{fontspec}
-\definecolor{lightgray}{gray}{0.8}
+\definecolor{lightgray}{gray}{0.6}
 
 \newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
 %\newfontfamily\headingfont[]{Armata}
