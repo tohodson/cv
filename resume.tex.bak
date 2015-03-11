@@ -13,10 +13,10 @@
 \centerline{\footnotesize{[digital version of this document embeds links]}}
 
 \section{Education}
-\datedsubsection{\textbf{PhD student in Geology} \textit{-- Northern Illinois University}}{expected 2017}
+\datedsubsection{\textbf{Ph.D. student in Geology} \textit{-- Northern Illinois University}}{In progress}
 \datedsubsection{\href{http://www.niu.edu/geog/giscert/graduate_certificate.shtml}{Certificate of Graduate Study in Geographic Information Analysis}}{2014}
-\datedsubsection{\href{http://gradworks.umi.com/15/28/1528822.html}{\textbf{MS Geology} \textit{-- Northern Illinois University}}}{2012}
-\datedsubsection{\textbf{BS Geology and Geophysics} \textit{-- University of Wisconsin, Madison}}{2007}
+\datedsubsection{\href{http://gradworks.umi.com/15/28/1528822.html}{\textbf{M.S. Geology} \textit{-- Northern Illinois University}}}{2012}
+\datedsubsection{\textbf{B.S. Geology and Geophysics} \textit{-- University of Wisconsin, Madison}}{2007}
 
 \section{Research Interests}
 \begin{itemize}
@@ -29,14 +29,8 @@
 \datedsubsection{Research Assistant, \textit{Northern Illinois University}}{2010--Present}
 \begin{itemize}
 \item \href{http://www.wissard.org}{Researcher and sensor technician for WISSARD, a NSF funded project to explore environments beneath the Antarctic Ice Sheet. }\href{http://discovermagazine.com/2014/jan-feb/12-the-search-for-life-trapped-under-ice}{Listed \#12 in \textit{Discover}'s Top 100 Science Stories of 2013.}
-\item Mapped seafloor habitats of Puget Sound, Washington by fusing historical and modern data sets. Resulting maps will inform public and policy makers in developing better conservation and management of Puget Sound.
-\item \href{http://pubs.usgs.gov/sim/3253/}{Mapped seafloor habitats in Glacier Bay National Park using remotely sensed data and seafloor video transects in a maximum likelihood classifier. Resulting report and map set published by USGS.}
-\end{itemize}
-
-
-\datedsubsection{Mapping Intern, \textit{UCAR}}{August,2014}
-\begin{itemize}
-\item \href{http://www.niutoday.info/2014/04/17/niu-student-lands-coveted-internship-aboard-exploration-ship/}{Sailed as a survey watchstander aboard NOAA's \textit{E/V Okeanos Explorer}. Duties included QA and processing of data collected by the ship's swath and sub-bottom sonars.}
+\item Mapped seafloor habitats of Puget Sound, Washington by fusing historical and modern datasets. Resulting maps will inform public and policy makers in developing better conservation and management of Puget Sound.
+\item \href{http://pubs.usgs.gov/sim/3253/}{Mapped seafloor habitats in Glacier Bay National Park using remotely sensed data and seafloor video transects in a maximum likelihood classifier. Resulting report and mapset published by USGS.}
 \end{itemize}
 
 \datedsubsection{Teaching Assistant, \textit{Northern Illinois University}}{2010--2011}
@@ -52,7 +46,8 @@
 
 \section{Other Experience}
 \begin{itemize}
-\item STEMfest volunteer communicating importance of polar research and organizing educational outreach activities for k-12 students.
+\item\href{http://www.niutoday.info/2014/04/17/niu-student-lands-coveted-internship-aboard-exploration-ship/}{Mapping intern aboard NOAA's \textit{E/V Okeanos Explorer}. Duties included QA and processing of data collected by the ship's swath and subbottom sonars.}
+\item STEMfest volunteer communicating importance of polar reasearch and organizing educational outreach activities for k-12 students.
 \end{itemize}
 
 \section{Programming}
@@ -66,7 +61,7 @@
 \section{Software}
 ArcGIS (4yrs), Adobe Illustrator, QGIS, GRASS, Fledermaus, Microsoft Office, Unix utilities, Emacs, and Vim
 
-\section{Professional organizations}
+\section{Professional organizaitons}
 American Geophysical Union, Sigma Xi (Associate Member), Geological Society of America
 
 \section{References}
