@@ -1,49 +1,21 @@
 \documentclass{cv_TOH}
 
-\usepackage[letterpaper,top=3cm,bottom=3cm,left=2cm,right=2cm]{geometry}
-%eventually set this in cls
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage{hyperref}
 
 \pagenumbering{gobble}
 
 \begin{document}
 
-\name{Timothy O. Hodson}
-\contact{123 Broadway}{London}{UK 12345}{tohodson@gmail.com}{(217)-493-5551}
- 
-\section{Education}
-\datedsubsection{Northern Illinois University}{2010--Present}
-\datedsubsection{PhD Geology}{In Progress}
-\datedsubsection{Certificate of Graduate Study in Geographic Information Analysis}{2014}
-\datedsubsection{M.S Geology -- Northern Illinois University}{2012}
-\datedsubsection{University of Wisconsin -- Madison}{2007}
-\datedsubsection{B.S. Geology and Geophysics}{2003--2007}
- 
-\section{Professional Experience}
-\datedsubsection{Northern Illinois University}{2008--Now}
-I have worked at ABC Limited from 2008 onwards.
-\datedsubsection{Illinois State Geological Survey}{2008--2009}
-\subsubsection{Research Assistant}
-Supported geolgists in surfcial mapping, aquifer characterization, and watershed characterization.
 
-\section{Other Experience}
+\input{sections/header.tex}
 
-\section{Programming}
-Python, C, Matlab, R, JavaScript, BASH, HTML/CSS, SQL
+\input{sections/education.tex}
+\input{sections/experience.tex}
+\input{sections/publications.tex}
+\input{sections/fieldwork.tex}
 
-\section{Software}
-ArcGIS, Adobe Illustrator, QGIS, GRASS, Fledermaus, Unix utilities, and Microsoft Office
-\section{Experience}
+\newpage
 
-\section{References}
-\begin{tabular}{@{}p{5cm}p{5cm}p{5cm}}
-\textbf{Ross Powell}                    &  \textbf{Thomas Pingel}               & \textbf{John Winans}   \\
-Professor                               &  Asst. Professor                      &  Research Associate    \\
-Geology and Env. Geoscience             &  Geography                            &  Computer Science      \\
-Northern Illinois University            &  Northern Illinois University         &  Northern Illinois University \\
-DeKalb, Illinois                        &  DeKalb, Illinois                     &  DeKalb, Illinois  \\
-http://faculty.cs.niu.edu/~winans       & http://faculty.cs.niu.edu/~winans/    &  faculty.cs.niu.edu/~winans/ \\
-phone: \textsl{(815) 753-7952}          &  phone: \textsl{available on request} &  phone: \textsl{test}  \\
-e-mail: \textsl{available on request}   &  e-mail: \textsl{available on request}&  e-mail: test  \\
-\end{tabular}
- 
 \end{document} 
+
