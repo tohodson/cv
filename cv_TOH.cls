@@ -31,6 +31,13 @@
 \RequirePackage{fancyhdr} %fancy headers
 %\RequirePackage{fontspec}
 \definecolor{lightgray}{gray}{0.6}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+\setlength{\headsep}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\topmargin}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\partopsep}{0pt}
 
 \newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
 %\newfontfamily\headingfont[]{Armata}
