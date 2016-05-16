@@ -38,6 +38,7 @@
 \setlength{\topmargin}{0pt}
 \setlength{\topsep}{0pt}
 \setlength{\partopsep}{0pt}
+\setlength{\parindent}{0pt}
 
 \newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
 %\newfontfamily\headingfont[]{Armata}
