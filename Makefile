@@ -9,8 +9,14 @@ clean :
 view :
 	    open cv.pdf
 
+# LONG CV
 cv : cv
 	    $(TEX) cv.tex
 
+# 1-PAGE CV
+cv1 : cv1
+		$(TEX) cv1.tex
+
+# RESUME
 resume : resume
 		$(TEX) resume.tex

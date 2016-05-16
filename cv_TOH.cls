@@ -73,6 +73,10 @@
   \centerline{\scshape\Huge{#1}}
 }
 
+\newcommand{\smallname}[1]{
+  \centerline{\scshape\Medium{#1}}
+}
+
 \newcommand{\contact}[5]{
     #1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
     {\Large} #4 \ {\Large} #5
