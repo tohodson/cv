@@ -17,6 +17,11 @@ cv : cv
 cv1 : cv1
 		$(TEX) cv1.tex
 
+# 2-PAGE CV
+cv2 : cv2
+		$(TEX) cv2.tex
+
+
 # RESUME
 resume : resume
 		$(TEX) resume.tex
