@@ -2,8 +2,14 @@
 
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
 %\usepackage[hidelinks]{hyperref}
+%\usepackage{fourier}
+\usepackage[light,fulloldstylenums,nomath]{kpfonts}  % Kp fonts, derived from URW Palladio font family
+\usepackage{bibunits}
 \usepackage[ManyBibs]{currvita}
 
+\usepackage{color}
+% Define the color to use in links:
+\definecolor{linkcol}{rgb}{0.459,0.071,0.294}
 
 \usepackage[
     pdftex,
@@ -16,20 +22,23 @@
 
 
 
+\tolerance 600
 
 \begin{document}
-\begin{cv}{}
-%\hrule
+
+\begin{cv}{Curriculum Vitae}
+\hrule
+
+\medskip
+
 
 \input{sections/header.tex}
-
 \input{sections/education.tex}
-%\input{sections/experience_short.tex}
+\input{sections/experience_short.tex}
 %\input{sections/publications.tex}
 \input{sections/fieldwork.tex}
 \input{sections/awards.tex}
-%\input{sections/software.tex}
-
+\input{sections/other.tex}
 \end{cv}
 \end{document}
 
