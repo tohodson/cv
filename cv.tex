@@ -1,22 +1,35 @@
-\documentclass{cv_TOH}
+\documentclass[10pt]{article}
 
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
-\usepackage[hidelinks]{hyperref}
+%\usepackage[hidelinks]{hyperref}
+\usepackage[ManyBibs]{currvita}
 
-\pagenumbering{gobble}
+
+\usepackage[
+    pdftex,
+    pdftitle={Timothy Hodson's CV},
+    pdfauthor={TimothyHodson},
+    pdfpagemode={UseOutlines},
+    bookmarks, bookmarksopen,bookmarksnumbered={True},
+    colorlinks, linkcolor={linkcol},citecolor={linkcol},urlcolor={linkcol}
+    ]{hyperref}
+
+
+
 
 \begin{document}
-
+\begin{cv}{}
+%\hrule
 
 \input{sections/header.tex}
 
 \input{sections/education.tex}
-\input{sections/experience_short.tex}
-\input{sections/publications.tex}
-\input{sections/fieldwork.tex}
-\input{sections/awards.tex}
-\input{sections/software.tex}
-\newpage
+%\input{sections/experience_short.tex}
+%\input{sections/publications.tex}
+%\input{sections/fieldwork.tex}
+%\input{sections/awards.tex}
+%\input{sections/software.tex}
 
-\end{document} 
+\end{cv}
+\end{document}
 
