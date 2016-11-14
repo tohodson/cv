@@ -1,11 +1,14 @@
-PDFLATEX = /Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin/pdflatex
+PDFLATEX = /Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin/pdflatex 
 TEX = $(PDFLATEX) -shell-escape -interaction=nonstopmode -file-line-error
 PRE =  $(TEX) -ini -job-name="preamble" "&pdflatex preamble.tex\dump"
+
+
+.PHONY: cv view
 
 all : cv resume
 
 clean : 
-	    rm *.pdf *.aux *.log *.out
+	    rm *.pdf *.aux *.log *.out *.blg *.bbl *.aux
 view :
 	    open cv.pdf
 
